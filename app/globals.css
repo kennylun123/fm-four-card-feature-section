@@ -43,38 +43,12 @@
 }
 
 .home__cards-wrapper {
-  @apply grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-4 sm:grid-rows-2 mt-16 max-w-[1110px] mx-auto;
+  @apply grid grid-flow-row lg:grid-flow-col lg:[&>*:nth-of-type(1)]:row-span-2 lg:[&>*:nth-of-type(4)]:row-span-2 lg:items-center gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-4 sm:grid-rows-2 mt-16 max-w-[1110px] mx-auto;
 }
 /* END: Home styles */
 
 /* START: Card styles */
 .card {
   @apply relative flex flex-col p-6 justify-center items-start text-neutral-400 bg-white shadow-xl shadow-slate-300 rounded-md overflow-hidden;
-}
-
-/* How to achieve below style in TailwindCSS? */
-@media (min-width: 1024px) {
-  .home__cards-wrapper {
-    grid-template-areas:
-      "card1 card2 card4"
-      "card1 card3 card4";
-    align-items: center;
-  }
-
-  .card:nth-of-type(1) {
-    grid-area: card1;
-  }
-
-  .card:nth-of-type(2) {
-    grid-area: card2;
-  }
-
-  .card:nth-of-type(3) {
-    grid-area: card3;
-  }
-
-  .card:nth-of-type(4) {
-    grid-area: card4;
-  }
 }
 /* END: Card styles */
