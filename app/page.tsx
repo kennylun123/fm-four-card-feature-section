@@ -12,7 +12,7 @@ export default function Home() {
             </span>
             Powered by Technology
           </h1>
-          <p className="max-w-[50ch] text-[15px] leading-[25px]">
+          <p className="max-w-[55ch] text-[15px] leading-[25px]">
             Our Artificial Intelligence powered tools use millions of project
             data points to ensure that your project is successful
           </p>
