@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-nextjs-typescript-tailwindcss-zjQYOOPZ54](https://www.frontendmentor.io/solutions/responsive-four-card-feature-section-nextjs-typescript-tailwindcss-zjQYOOPZ54)
+- Live Site URL: [https://fm-four-card-feature-section-kennylun123.vercel.app/](https://fm-four-card-feature-section-kennylun123.vercel.app/)
 
 ## My process
 

@@ -6,13 +6,13 @@ export default function Home() {
     <main>
       <div className="padding-x padding-y max-width">
         <div className="home__text-container">
-          <h1 className="text-2xl font-semibold leading-normal text-neutral-800">
+          <h1 className="text-2xl lg:text-4xl font-semibold leading-normal lg:leading-[46px] text-neutral-800">
             <span className="font-extralight block">
               Reliable, efficient delivery
             </span>
             Powered by Technology
           </h1>
-          <p className="max-w-[55ch] text-[15px] leading-[25px]">
+          <p className="max-w-[50ch] text-[15px] leading-[25px]">
             Our Artificial Intelligence powered tools use millions of project
             data points to ensure that your project is successful
           </p>
